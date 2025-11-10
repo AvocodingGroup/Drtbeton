@@ -20,14 +20,14 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 bg-gray-900 shadow-lg z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
-          <div className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3 cursor-pointer">
             <Logo className="w-12 h-12" />
             <div>
                <p className="text-sm text-gray-200 font-medium">
                 Profesionálne vŕtanie a rezanie
               </p>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">

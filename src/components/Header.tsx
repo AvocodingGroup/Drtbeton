@@ -16,11 +16,18 @@ export function Header() {
     }
   };
 
+  const handleLogoClick = (e: React.MouseEvent) => {
+    if (location.pathname === '/') {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 bg-gray-900 shadow-lg z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
-          <Link to="/" className="flex items-center gap-3 cursor-pointer">
+          <Link to="/" onClick={handleLogoClick} className="flex items-center gap-3 cursor-pointer">
             <Logo className="w-12 h-12" />
             <div>
                <p className="text-sm text-gray-200 font-medium">

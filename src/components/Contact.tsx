@@ -18,7 +18,7 @@ export function Contact() {
     {
       icon: Clock,
       title: 'Pracovný čas',
-      content: 'Po-Pia: 7:00 - 17:00',
+      content: 'Po-Ne: 7:00 - 17:00',
       link: null
     }
   ];

@@ -3,28 +3,44 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function Gallery() {
   const images = [
     {
-      url: 'https://images.unsplash.com/photo-1760376208640-2ece4c4a0adc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jcmV0ZSUyMGRyaWxsaW5nJTIwY29uc3RydWN0aW9ufGVufDF8fHx8MTc2MTU3OTc2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Jadrové vŕtanie'
+      url: './gallery/IMG_2625.PNG',
+      title: ''
     },
     {
-      url: 'https://images.unsplash.com/photo-1518701328093-5bc75f543696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jcmV0ZSUyMGN1dHRpbmclMjBpbmR1c3RyaWFsfGVufDF8fHx8MTc2MTU3OTc2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Rezanie betónu'
+      url: './gallery/IMG_2626.PNG',
+      title: ''
     },
     {
-      url: 'https://images.unsplash.com/photo-1678944827354-fb54b9040a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZW1vbGl0aW9uJTIwY29uc3RydWN0aW9uJTIwd29ya3xlbnwxfHx8fDE3NjE1Nzk3NjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Demolačné práce'
+      url: './gallery/IMG_2627.PNG',
+      title: ''
     },
     {
-      url: 'https://images.unsplash.com/photo-1579492450119-80542d516179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jcmV0ZSUyMHdhbGwlMjB0ZXh0dXJlfGVufDF8fHx8MTc2MTQ2OTQ5NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Práca s betónom'
+      url: './gallery/IMG_2628.PNG',
+      title: ''
     },
     {
-      url: 'https://images.unsplash.com/photo-1738528575208-b9ccdca8acaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwY29uc3RydWN0aW9uJTIwc2l0ZXxlbnwxfHx8fDE3NjE1NDgwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Priemyselné projekty'
+      url: './gallery/IMG_2629.PNG',
+      title: ''
     },
     {
-      url: 'https://images.unsplash.com/photo-1706201901036-6a295b4e4ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjB3b3JrZXIlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjE1NjUyMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      title: 'Profesionálny tím'
+      url: './gallery/IMG_2630.PNG',
+      title: ''
+    },
+    {
+      url: './gallery/IMG_2631.PNG',
+      title: ''
+    },
+    {
+      url: './gallery/IMG_2632.PNG',
+      title: ''
+    },
+    {
+      url: './gallery/IMG_2633.PNG',
+      title: ''
+    },
+    {
+      url: './gallery/IMG_2634.PNG',
+      title: ''
     }
   ];
 

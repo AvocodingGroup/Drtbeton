@@ -43,13 +43,26 @@ export function Services() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-white">
+    <section id="services" className="bg-white">
+
+      {/* Promo banner */}
+      <div
+        className="inline-flex justify-between items-top gap-3 px-6 py-3 w-full"
+        style={{ backgroundColor: "#F54900", marginBottom: '40px'}}
+      >
+        <span className="text-white text-xl font-medium">%</span>
+        <span className="text-white text-center font-medium text-xl">
+          Získaj 10 % zľavu na všetky služby až do konca roka! 
+        </span>
+        <span className="text-white text-xl font-medium">%</span>
+      </div>
+
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl text-gray-900 mb-4">Naše služby</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Poskytujeme komplexné služby jadrového vŕtania a rezania betónu 
-            s modernou technikou a odborným prístupom
+            Poskytujeme komplexné služby jadrového vŕtania a rezania betónu s
+            modernou technikou a odborným prístupom
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -65,7 +78,11 @@ export function Services() {
                     <Icon
                       className="w-24 h-24"
                       strokeWidth={1.5}
-                      style={{ width: "40px", height: "40px", color: '#F54900' }}
+                      style={{
+                        width: "40px",
+                        height: "40px",
+                        color: "#F54900",
+                      }}
                     />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4 tracking-wide">

@@ -47,7 +47,7 @@ export function Hero() {
             {/* Description */}
             <p className="text-xl text-gray-200 leading-relaxed max-w-xl">
               Špecializujeme sa na presné jadrové vŕtanie a rezanie železobetónu, tehly a itongu po celom západnom Slovensku.
-              Moderná technika, odborný tým a konkurenčné ceny s krátkou čakacou dobou.
+              Moderná technika, odborný tím a konkurenčné ceny s krátkou čakacou dobou.
             </p>
 
             {/* CTA Buttons */}
